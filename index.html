@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banner - Khóa Học Robotics & AI Tiểu Học</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;900&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        body {
+            font-family: 'Nunito', sans-serif;
+            background-color: #f0f9ff; /* Light blue background */
+        }
+        .hero-gradient {
+            background: linear-gradient(135deg, #38bdf8 0%, #fbbf24 100%);
+        }
+        .card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        /* Added for responsive video */
+        .aspect-video {
+            aspect-ratio: 16 / 9;
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+
+    <div class="container mx-auto p-4 md:p-8">
+        <!-- Header Section -->
+        <header class="text-center mb-12">
+            <h1 class="text-4xl md:text-6xl font-black text-blue-600 mb-4">Bước Vào Thế Giới Robot Kỳ Diệu!</h1>
+            <p class="text-lg md:text-xl text-gray-600">Khóa học Robotics & AI nền tảng dành cho học sinh Tiểu học (Lớp 1-5)</p>
+        </header>
+
+        <!-- Hero Section with Video -->
+        <div class="hero-gradient rounded-3xl p-6 md:p-10 flex flex-col md:flex-row items-center gap-8 mb-16 card">
+            <div class="md:w-1/2 text-white">
+                <h2 class="text-3xl font-bold mb-4">Học Mà Chơi, Bé Vui Sáng Tạo</h2>
+                <p class="mb-6">Cùng bộ công cụ <strong class="bg-yellow-300 text-gray-800 px-2 py-1 rounded">LEGO® Spike Essential</strong> đầy màu sắc, bé sẽ được tự tay lắp ráp và lập trình những chú robot thông minh đầu tiên, khơi dậy niềm đam mê khoa học và công nghệ ngay từ nhỏ.</p>
+                <a href="#register" class="bg-white text-blue-600 font-bold py-3 px-8 rounded-full text-lg hover:bg-gray-100 transition-colors duration-300">Khám Phá Ngay!</a>
+            </div>
+            <div class="md:w-1/2">
+                <!-- Video player embed -->
+                <div class="rounded-2xl shadow-lg overflow-hidden w-full aspect-video">
+                    <iframe class="w-full h-full" 
+                            src="https://legoeducation.23video.com/v.ihtml/player.html?token=e33e564f1b8899614c513a64bbd972bc&source=embed&photo_id=70267557&autoPlay=0&autoMute=1" 
+                            title="LEGO Spike Essential Video" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+        </div>
+
+        <!-- Why Choose Us Section -->
+        <div class="text-center mb-16">
+            <h2 class="text-3xl font-bold mb-8">Bé Sẽ Nhận Được Gì Sau Khóa Học?</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Feature 1 -->
+                <div class="bg-white p-6 rounded-2xl shadow-md card">
+                    <div class="bg-green-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                        <i data-lucide="sparkles" class="w-8 h-8 text-green-500"></i>
+                    </div>
+                    <h3 class="font-bold text-xl mb-2">Tư Duy Sáng Tạo</h3>
+                    <p class="text-gray-600">Tự do lắp ráp các mô hình độc đáo, biến ý tưởng thành hiện thực.</p>
+                </div>
+                <!-- Feature 2 -->
+                <div class="bg-white p-6 rounded-2xl shadow-md card">
+                    <div class="bg-blue-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                        <i data-lucide="puzzle" class="w-8 h-8 text-blue-500"></i>
+                    </div>
+                    <h3 class="font-bold text-xl mb-2">Logic Lập Trình</h3>
+                    <p class="text-gray-600">Làm quen lập trình kéo-thả trực quan, ra lệnh cho robot.</p>
+                </div>
+                <!-- Feature 3 -->
+                <div class="bg-white p-6 rounded-2xl shadow-md card">
+                     <div class="bg-purple-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                        <i data-lucide="brain-circuit" class="w-8 h-8 text-purple-500"></i>
+                    </div>
+                    <h3 class="font-bold text-xl mb-2">Giải Quyết Vấn Đề</h3>
+                    <p class="text-gray-600">Học cách giúp robot vượt qua thử thách, hoàn thành nhiệm vụ.</p>
+                </div>
+                <!-- Feature 4 -->
+                <div class="bg-white p-6 rounded-2xl shadow-md card">
+                    <div class="bg-yellow-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                        <i data-lucide="rocket" class="w-8 h-8 text-yellow-500"></i>
+                    </div>
+                    <h3 class="font-bold text-xl mb-2">Kỹ Năng Tương Lai</h3>
+                    <p class="text-gray-600">Xây dựng nền tảng AI, sẵn sàng cho kỷ nguyên số.</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Curriculum Journey Section -->
+        <div class="mb-16">
+            <h2 class="text-3xl font-bold text-center mb-10">Hành Trình Khám Phá Của Bé</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Project 1: Xe Đua Tốc Độ -->
+                <div class="bg-white rounded-2xl overflow-hidden shadow-lg card">
+                    <img src="https://steamsolutions.com.vn/wp-content/uploads/2022/11/45345_Model_U3L2_02-1024x768.png" alt="Xe Đua Tốc Độ" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <span class="text-sm font-bold text-red-500">Level 2</span>
+                        <h3 class="font-bold text-xl mt-1 mb-2">Xe Đua Tốc Độ</h3>
+                        <p class="text-gray-600">Tìm hiểu về động cơ và lập trình cho chiếc xe đua siêu tốc của riêng mình.</p>
+                    </div>
+                </div>
+                 <!-- Project 2: Robot Phân Loại Màu -->
+                <div class="bg-white rounded-2xl overflow-hidden shadow-lg card">
+                    <img src="https://steamsolutions.com.vn/wp-content/uploads/2022/11/45345_ModDetail_04-1024x768.png" alt="Robot Phân Loại Màu Sắc" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                         <span class="text-sm font-bold text-blue-500">Level 3</span>
+                        <h3 class="font-bold text-xl mt-1 mb-2">Robot Phân Loại Màu</h3>
+                        <p class="text-gray-600">Dạy robot "nhìn" thế giới qua cảm biến và nhận biết các màu sắc khác nhau.</p>
+                    </div>
+                </div>
+                 <!-- Project 3: Robot Né Vật Cản -->
+                <div class="bg-white rounded-2xl overflow-hidden shadow-lg card">
+                    <img src="https://steamsolutions.com.vn/wp-content/uploads/2022/11/45345_Model_U3L6_01-1024x768.png" alt="Robot Né Vật Cản" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                         <span class="text-sm font-bold text-yellow-600">Level 4</span>
+                        <h3 class="font-bold text-xl mt-1 mb-2">Robot Né Vật Cản</h3>
+                        <p class="text-gray-600">Giúp robot di chuyển thông minh và tự động tìm đường đi khi gặp chướng ngại vật.</p>
+                    </div>
+                </div>
+                 <!-- Project 4: Robot Vẽ Hình Vuông -->
+                 <div class="bg-white rounded-2xl overflow-hidden shadow-lg card">
+                    <img src="https://media.loveitopcdn.com/5371/lego-spike-prime-may-ve.png" alt="Robot Vẽ Hình" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <span class="text-sm font-bold text-green-500">Level 7</span>
+                        <h3 class="font-bold text-xl mt-1 mb-2">Robot Vẽ Hình</h3>
+                        <p class="text-gray-600">Khám phá vòng lặp và điều khiển robot vẽ nên những hình dạng thú vị.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Call to Action Section -->
+        <div id="register" class="text-center bg-white p-10 rounded-3xl shadow-lg">
+             <h2 class="text-3xl font-bold mb-4">Hãy Để Bé Bắt Đầu Hành Trình Sáng Tạo Ngay Hôm Nay!</h2>
+             <p class="text-gray-600 mb-8 max-w-2xl mx-auto">Chỉ một bước nữa để bé khám phá thế giới công nghệ đầy màu sắc. Đăng ký để nhận tư vấn chi tiết về lộ trình học và ưu đãi đặc biệt!</p>
+             <a href="https://forms.gle/wWkangz2gMLwLrUF6" target="_blank" rel="noopener noreferrer" class="bg-blue-600 text-white font-bold py-4 px-10 rounded-full text-xl hover:bg-blue-700 transition-colors duration-300 transform hover:scale-105 inline-block">
+                   Đăng Ký Tư Vấn
+               </a>
+             <p class="mt-4 text-sm text-gray-500">Liên hệ: 0935 823 635</p>
+        </div>
+    </div>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
